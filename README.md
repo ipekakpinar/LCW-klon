@@ -40,18 +40,32 @@ npm install
 
 # 4. Start the development server
 npm run dev
+````
 
-# 5. If you're also running the backend server:
+If you're also running the backend server:
+
+```bash
 cd backend
 npm install
 node index.js
+```
 
-🔐 Authentication
-The backend uses JWT (JSON Web Token) for secure user login. User credentials are checked against a local users.json file. Upon successful login, a token is issued.
+---
 
-📁 Project Structure
-/src: Contains React components, pages, and context.
+## 🔐 Authentication
 
-/backend: Contains the Express server and mock authentication logic.
+The backend uses **JWT (JSON Web Token)** for secure user login. User credentials are checked against a local `users.json` file. Upon successful login, a token is issued.
 
-/assets: Contains image and icon assets used in the frontend.
+---
+
+## 📁 Project Structure
+
+* `/src`: Contains React components, pages, and context.
+* `/backend`: Contains the Express server and mock authentication logic.
+* `/assets`: Contains image and icon assets used in the frontend.
+
+---
+
+> This project is for educational purposes and is not intended for production use.
+
+```
